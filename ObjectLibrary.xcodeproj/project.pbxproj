@@ -18,6 +18,12 @@
 		C405EC28173595BE0086368F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C405EC27173595BE0086368F /* Default-568h@2x.png */; };
 		C405EC2B173595BE0086368F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C405EC2A173595BE0086368F /* ViewController.m */; };
 		C405EC2E173595BE0086368F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C405EC2C173595BE0086368F /* ViewController.xib */; };
+		C405EC37173595E80086368F /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C405EC35173595E80086368F /* LabelViewController.m */; };
+		C405EC38173595E80086368F /* LabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C405EC36173595E80086368F /* LabelViewController.xib */; };
+		C405EC4417359C1A0086368F /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C405EC4217359C1A0086368F /* ButtonViewController.m */; };
+		C405EC4517359C1A0086368F /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C405EC4317359C1A0086368F /* ButtonViewController.xib */; };
+		C405EC4A1735A4DF0086368F /* TextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C405EC481735A4DF0086368F /* TextFieldViewController.m */; };
+		C405EC4B1735A4DF0086368F /* TextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C405EC491735A4DF0086368F /* TextFieldViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,15 @@
 		C405EC29173595BE0086368F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C405EC2A173595BE0086368F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C405EC2D173595BE0086368F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C405EC34173595E80086368F /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabelViewController.h; path = ../LabelViewController.h; sourceTree = "<group>"; };
+		C405EC35173595E80086368F /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabelViewController.m; path = ../LabelViewController.m; sourceTree = "<group>"; };
+		C405EC36173595E80086368F /* LabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LabelViewController.xib; path = ../LabelViewController.xib; sourceTree = "<group>"; };
+		C405EC4117359C1A0086368F /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		C405EC4217359C1A0086368F /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		C405EC4317359C1A0086368F /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		C405EC471735A4DF0086368F /* TextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldViewController.h; sourceTree = "<group>"; };
+		C405EC481735A4DF0086368F /* TextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldViewController.m; sourceTree = "<group>"; };
+		C405EC491735A4DF0086368F /* TextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +103,9 @@
 				C405EC29173595BE0086368F /* ViewController.h */,
 				C405EC2A173595BE0086368F /* ViewController.m */,
 				C405EC2C173595BE0086368F /* ViewController.xib */,
+				C405EC39173595FA0086368F /* Label */,
+				C405EC4017359BE60086368F /* Button */,
+				C405EC461735A4AE0086368F /* TextFIeld */,
 				C405EC18173595BE0086368F /* Supporting Files */,
 			);
 			path = ObjectLibrary;
@@ -105,6 +123,36 @@
 				C405EC27173595BE0086368F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C405EC39173595FA0086368F /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				C405EC34173595E80086368F /* LabelViewController.h */,
+				C405EC35173595E80086368F /* LabelViewController.m */,
+				C405EC36173595E80086368F /* LabelViewController.xib */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
+		C405EC4017359BE60086368F /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				C405EC4117359C1A0086368F /* ButtonViewController.h */,
+				C405EC4217359C1A0086368F /* ButtonViewController.m */,
+				C405EC4317359C1A0086368F /* ButtonViewController.xib */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		C405EC461735A4AE0086368F /* TextFIeld */ = {
+			isa = PBXGroup;
+			children = (
+				C405EC471735A4DF0086368F /* TextFieldViewController.h */,
+				C405EC481735A4DF0086368F /* TextFieldViewController.m */,
+				C405EC491735A4DF0086368F /* TextFieldViewController.xib */,
+			);
+			name = TextFIeld;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +211,9 @@
 				C405EC26173595BE0086368F /* Default@2x.png in Resources */,
 				C405EC28173595BE0086368F /* Default-568h@2x.png in Resources */,
 				C405EC2E173595BE0086368F /* ViewController.xib in Resources */,
+				C405EC38173595E80086368F /* LabelViewController.xib in Resources */,
+				C405EC4517359C1A0086368F /* ButtonViewController.xib in Resources */,
+				C405EC4B1735A4DF0086368F /* TextFieldViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +227,9 @@
 				C405EC1E173595BE0086368F /* main.m in Sources */,
 				C405EC22173595BE0086368F /* AppDelegate.m in Sources */,
 				C405EC2B173595BE0086368F /* ViewController.m in Sources */,
+				C405EC37173595E80086368F /* LabelViewController.m in Sources */,
+				C405EC4417359C1A0086368F /* ButtonViewController.m in Sources */,
+				C405EC4A1735A4DF0086368F /* TextFieldViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

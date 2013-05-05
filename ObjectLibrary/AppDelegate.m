@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "LabelViewController.h"
+#import "ButtonViewController.h"
+#import "TextFieldViewController.h"
 
 @implementation AppDelegate
 
@@ -16,8 +19,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    TextFieldViewController *textFieldViewController = [[TextFieldViewController alloc] initWithNibName:@"TextFieldViewController" bundle:nil];
+    
+//    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.window.rootViewController = textFieldViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
