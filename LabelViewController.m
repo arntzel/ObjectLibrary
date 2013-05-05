@@ -28,7 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     NSLog(@"Hello World");
-    self.titleLabel.text = @"Updated Label Title";
+    self.titleLabel.text = self.labelValue;
 }
 
 - (void)didReceiveMemoryWarning

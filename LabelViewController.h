@@ -11,5 +11,6 @@
 @interface LabelViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) NSString *labelValue;
 
 @end
